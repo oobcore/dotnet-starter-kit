@@ -22,6 +22,9 @@
     <ProjectReference Include="..\migrations\PostgreSQL\PostgreSQL.csproj" />
     <ProjectReference Include="..\modules\Catalog\Catalog.Infrastructure\Catalog.Infrastructure.csproj" />
     <ProjectReference Include="..\modules\Todo\Todo.csproj" />
+    <ProjectReference Include="..\modules\Incident\Incident.Infrastructure\Incident.Infrastructure.csproj" />
+
+
   </ItemGroup>
   <ItemGroup>
     <Content Update="appsettings.Development.json">

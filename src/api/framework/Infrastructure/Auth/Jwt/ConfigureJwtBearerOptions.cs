@@ -49,10 +49,10 @@ public class ConfigureJwtBearerOptions : IConfigureNamedOptions<JwtBearerOptions
             OnChallenge = context =>
             {
                 context.HandleResponse();
-                if (!context.Response.HasStarted)
-                {
-                    throw new UnauthorizedException();
-                }
+                // if (!context.Response.HasStarted)
+                // {
+                //     throw new UnauthorizedException();
+                // }
 
                 return Task.CompletedTask;
             },
