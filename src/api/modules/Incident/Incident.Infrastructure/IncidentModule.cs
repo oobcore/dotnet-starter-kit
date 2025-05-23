@@ -31,7 +31,6 @@ public static class IncidentModule
     /// </summary>
     public class Endpoints : CarterModule
     {
-        public Endpoints() : base("incidents") { }
         public override void AddRoutes(IEndpointRouteBuilder app)
         {
             var incident = app.MapGroup("incidents").WithTags("incidents");
